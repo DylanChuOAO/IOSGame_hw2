@@ -11,6 +11,13 @@
 		FC55FBAC260C78860015F3A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55FBAB260C78860015F3A3 /* ContentView.swift */; };
 		FC55FBAE260C78870015F3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC55FBAD260C78870015F3A3 /* Assets.xcassets */; };
 		FC55FBB1260C78870015F3A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC55FBB0260C78870015F3A3 /* Preview Assets.xcassets */; };
+		FC55FBBA260C7AA50015F3A3 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC55FBB9260C7AA50015F3A3 /* crayon_1-1.ttf */; };
+		FC55FBBD260C83CF0015F3A3 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55FBBC260C83CF0015F3A3 /* GamePage.swift */; };
+		FC55FBCB26159C060015F3A3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55FBCA26159C060015F3A3 /* Card.swift */; };
+		FC55FBD4261768D20015F3A3 /* LosePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55FBD3261768D20015F3A3 /* LosePage.swift */; };
+		FC55FBD826187C1E0015F3A3 /* WinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55FBD726187C1E0015F3A3 /* WinPage.swift */; };
+		FC55FBDC261884800015F3A3 /* GameOverPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55FBDB261884800015F3A3 /* GameOverPage.swift */; };
+		FC55FBE126199CD90015F3A3 /* youtube_bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC55FBE026199CD80015F3A3 /* youtube_bgm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		FC55FBAD260C78870015F3A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC55FBB0260C78870015F3A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC55FBB2260C78870015F3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC55FBB9260C7AA50015F3A3 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		FC55FBBC260C83CF0015F3A3 /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
+		FC55FBCA26159C060015F3A3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FC55FBD3261768D20015F3A3 /* LosePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosePage.swift; sourceTree = "<group>"; };
+		FC55FBD726187C1E0015F3A3 /* WinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinPage.swift; sourceTree = "<group>"; };
+		FC55FBDB261884800015F3A3 /* GameOverPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverPage.swift; sourceTree = "<group>"; };
+		FC55FBE026199CD80015F3A3 /* youtube_bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = youtube_bgm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +68,15 @@
 			children = (
 				FC55FBA9260C78860015F3A3 /* Poker_hw2App.swift */,
 				FC55FBAB260C78860015F3A3 /* ContentView.swift */,
+				FC55FBBC260C83CF0015F3A3 /* GamePage.swift */,
+				FC55FBDB261884800015F3A3 /* GameOverPage.swift */,
+				FC55FBD3261768D20015F3A3 /* LosePage.swift */,
+				FC55FBD726187C1E0015F3A3 /* WinPage.swift */,
+				FC55FBE026199CD80015F3A3 /* youtube_bgm.mp3 */,
 				FC55FBAD260C78870015F3A3 /* Assets.xcassets */,
+				FC55FBB9260C7AA50015F3A3 /* crayon_1-1.ttf */,
 				FC55FBB2260C78870015F3A3 /* Info.plist */,
+				FC55FBCA26159C060015F3A3 /* Card.swift */,
 				FC55FBAF260C78870015F3A3 /* Preview Content */,
 			);
 			path = Poker_hw2;
@@ -126,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC55FBBA260C7AA50015F3A3 /* crayon_1-1.ttf in Resources */,
 				FC55FBB1260C78870015F3A3 /* Preview Assets.xcassets in Resources */,
 				FC55FBAE260C78870015F3A3 /* Assets.xcassets in Resources */,
+				FC55FBE126199CD90015F3A3 /* youtube_bgm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC55FBD4261768D20015F3A3 /* LosePage.swift in Sources */,
 				FC55FBAC260C78860015F3A3 /* ContentView.swift in Sources */,
 				FC55FBAA260C78860015F3A3 /* Poker_hw2App.swift in Sources */,
+				FC55FBD826187C1E0015F3A3 /* WinPage.swift in Sources */,
+				FC55FBBD260C83CF0015F3A3 /* GamePage.swift in Sources */,
+				FC55FBDC261884800015F3A3 /* GameOverPage.swift in Sources */,
+				FC55FBCB26159C060015F3A3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
